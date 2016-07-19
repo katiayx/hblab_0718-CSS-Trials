@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Neighboring Boxes</title>
+    <style>
+        
+        #redbar {
+            background-color: red;
+            width: 350px;
+            height: 200px
+        }
+        #bluebar {
+            background-color: blue;
+            width: 350px;
+            height: 200px
+        }
+
+        #tleftbox {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: inline-block;
+            margin: 50px 25px 50px 50px;
+        }
+        #trightbox {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: inline-block;
+            margin: 50px 50px 50px 25px;
+        }
+        #bleftbox {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: inline-block;
+            margin: 50px 25px 50px 50px;
+        }
+        #brightbox {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: inline-block;
+            margin: 50px 50px 50px 25px;
+        }
+        body {
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="redbar"><div id="tleftbox"></div><div id="trightbox"></div></div>
+    <div id="bluebar"><div id="bleftbox"></div><div id="brightbox"></div></div>
+        
+        
+    
+</body>
+</html>

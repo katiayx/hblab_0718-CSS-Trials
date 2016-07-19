@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Neighboring Boxes</title>
+    <style>
+        #leftbox {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: inline-block;
+            margin: /*50px 25px 50px 50px;*/
+        }
+        #rightbox {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: inline-block;
+            margin: 50px 50px 50px 25px;
+        }
+        body {
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="leftbox"></div>
+    <div id="rightbox"></div>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>The Red Div</title>
+    <style>
+        div {
+            background-color: red;
+            width: 340px;
+            height: 240px;
+            margin: 0;
+        }
+        body {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

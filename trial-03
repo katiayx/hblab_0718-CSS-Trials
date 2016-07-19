@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>German Flag</title>
+    <style>
+        #black {
+            background-color: black;
+            width: 500px;
+            height: 100px;
+        }
+
+        #red {
+            background-color: red;
+            width: 500px;
+            height: 100px;
+        }
+
+        #yellow {
+            background-color: yellow;
+            width: 500px;
+            height: 100px;
+        }
+
+        body {
+            margin: 0;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="black"></div>
+    <div id="red"></div>
+    <div id="yellow"></div>
+</body>
+</html>
